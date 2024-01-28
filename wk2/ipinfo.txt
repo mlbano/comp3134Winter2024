@@ -1,0 +1,9 @@
+Using NsLookup.io:
+
+1. georgebrown.ca - 99.79.139.11 (Montréal, Quebec, Canada)
+2. amazon.ca - 54.239.19.238 (Ashburn, Virginia, United States of America)
+	     - 52.94.225.242 (Ashburn, Virginia, United States of America)
+	     - 54.239.18.172 (Ashburn, Virginia, United States of America)
+3. mcdonalds.ca - 44.208.147.61 (Ashburn, Virginia, United States of America)
+4. ttc.ca - 20.39.143.75 (Toronto, Ontario, Canada)
+5. uber.com - 34.98.127.226 (Kansas City, Missouri, United States of America)

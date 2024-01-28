@@ -1,0 +1,6 @@
+traceroute 143.198.38.41
+=========================
+
+root@comp3134-Winter2024:~# traceroute 143.198.38.41
+traceroute to 143.198.38.41 (143.198.38.41), 30 hops max, 60 byte packets
+ 1  comp3134-Winter2024 (143.198.38.41)  0.032 ms  0.008 ms  0.005 ms
