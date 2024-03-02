@@ -1,0 +1,14 @@
+root@comp3134-Winter2024:~# tcpdump -i eth0
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+23:54:53.585612 IP comp3134-Winter2024.ssh > 205.189.187.4.7210: Flags [P.], seq 879131484:879131536, ack 2602063133, win 501, length 52
+23:54:53.586300 IP comp3134-Winter2024.ssh > 205.189.187.4.7210: Flags [P.], seq 52:160, ack 1, win 501, length 108
+23:54:53.586377 IP comp3134-Winter2024.ssh > 205.189.187.4.7210: Flags [P.], seq 160:316, ack 1, win 501, length 156
+23:54:53.586431 IP comp3134-Winter2024.ssh > 205.189.187.4.7210: Flags [P.], seq 316:420, ack 1, win 501, length 104
+23:54:53.590539 IP 205.189.187.4.7210 > comp3134-Winter2024.ssh: Flags [.], ack 160, win 510, length 0
+23:54:53.590539 IP 205.189.187.4.7210 > comp3134-Winter2024.ssh: Flags [.], ack 420, win 509, length 0
+^C23:54:53.685052 IP comp3134-Winter2024.47228 > 67.207.67.2.domain: 33609+ [1au] PTR? 4.187.189.205.in-addr.arpa. (55)
+
+7 packets captured
+45 packets received by filter
+3 packets dropped by kernel

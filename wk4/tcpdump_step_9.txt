@@ -1,0 +1,27 @@
+root@comp3134-Winter2024:~# tcpdump -i eth0 tcp
+tcpdump: verbose output suppressed, use -v[v]... for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), snapshot length 262144 bytes
+00:04:40.309696 IP comp3134-Winter2024.ssh > 205.189.187.4.7210: Flags [P.], seq 882713936:882714044, ack 2602066185, win 501, length 108
+00:04:40.309805 IP comp3134-Winter2024.ssh > 205.189.187.4.7210: Flags [P.], seq 108:264, ack 1, win 501, length 156
+00:04:40.309923 IP comp3134-Winter2024.ssh > 205.189.187.4.7210: Flags [P.], seq 264:368, ack 1, win 501, length 104
+00:04:40.313290 IP 205.189.187.4.7210 > comp3134-Winter2024.ssh: Flags [.], ack 108, win 511, length 0
+00:04:40.313436 IP 205.189.187.4.7210 > comp3134-Winter2024.ssh: Flags [.], ack 368, win 510, length 0
+00:04:40.409124 IP comp3134-Winter2024.49540 > 67.207.67.2.domain: Flags [S], seq 861906309, win 64240, options [mss 1460,sackOK,TS val 1331157629 ecr 0,nop,wscale 7,tfo  cookiereq,nop,nop], length 0
+00:04:40.410364 IP 67.207.67.2.domain > comp3134-Winter2024.49540: Flags [S.], seq 2562599270, ack 861906310, win 65160, options [mss 1460,sackOK,TS val 1118884665 ecr 1331157629,nop,wscale 9], length 0
+00:04:40.410394 IP comp3134-Winter2024.49540 > 67.207.67.2.domain: Flags [.], ack 1, win 502, options [nop,nop,TS val 1331157630 ecr 1118884665], length 0
+00:04:40.410455 IP comp3134-Winter2024.49540 > 67.207.67.2.domain: Flags [P.], seq 1:47, ack 1, win 502, options [nop,nop,TS val 1331157631 ecr 1118884665], length 46 26680+ PTR? 4.187.189.205.in-addr.arpa. (44)
+00:04:40.410832 IP 67.207.67.2.domain > comp3134-Winter2024.49540: Flags [.], ack 47, win 128, options [nop,nop,TS val 1118884666 ecr 1331157631], length 0
+00:04:40.411067 IP 67.207.67.2.domain > comp3134-Winter2024.49540: Flags [P.], seq 1:101, ack 47, win 128, options [nop,nop,TS val 1118884666 ecr 1331157631], length 100 26680 NXDomain 0/1/0 (98)
+00:04:40.411075 IP comp3134-Winter2024.49540 > 67.207.67.2.domain: Flags [.], ack 101, win 502, options [nop,nop,TS val 1331157631 ecr 1118884666], length 0
+00:04:40.412631 IP comp3134-Winter2024.ssh > 205.189.187.4.7210: Flags [P.], seq 368:540, ack 1, win 501, length 172
+00:04:40.412721 IP comp3134-Winter2024.ssh > 205.189.187.4.7210: Flags [P.], seq 540:732, ack 1, win 501, length 192
+00:04:40.412784 IP comp3134-Winter2024.ssh > 205.189.187.4.7210: Flags [P.], seq 732:768, ack 1, win 501, length 36
+00:04:40.412858 IP comp3134-Winter2024.ssh > 205.189.187.4.7210: Flags [P.], seq 768:960, ack 1, win 501, length 192
+00:04:40.412930 IP comp3134-Winter2024.ssh > 205.189.187.4.7210: Flags [P.], seq 960:1312, ack 1, win 501, length 352
+00:04:40.419435 IP 205.189.187.4.7210 > comp3134-Winter2024.ssh: Flags [.], ack 732, win 509, length 0
+00:04:40.419645 IP 205.189.187.4.7210 > comp3134-Winter2024.ssh: Flags [.], ack 960, win 508, length 0
+00:04:40.469397 IP 205.189.187.4.7210 > comp3134-Winter2024.ssh: Flags [.], ack 1312, win 513, length 0
+^C
+20 packets captured
+41 packets received by filter
+0 packets dropped by kernel
